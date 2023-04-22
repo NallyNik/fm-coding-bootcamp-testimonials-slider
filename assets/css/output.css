@@ -74,13 +74,18 @@ figure {
 }
 
 button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 0;
-  background: none;
+  width: 1rem;
+  height: 2rem;
+  cursor: pointer;
   border: none;
+}
+
+.icon-prev {
+  background: url("../images/icon-prev.svg") no-repeat center;
+}
+
+.icon-next {
+  background: url("../images/icon-next.svg") no-repeat center;
 }
 
 .text {
